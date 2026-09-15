@@ -119,6 +119,10 @@ public class JanelaCampoMinado extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
 
+        ImageIcon icone = new ImageIcon (getClass().getResource("/imagens/icone.png"));
+
+        setIconImage(icone.getImage());
+
         getContentPane().setBackground(
                 CINZA_WINDOWS
         );
